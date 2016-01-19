@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### IPew Attack Map
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
@@ -55,3 +56,6 @@ set a latitude and longitude.
 ### Using IPew
 
 Feel free to use the hosted version, but we've released IPew under a liberal Creative Commons license, so clone away and use as you see fit, just remember to share your creations (and code) with others.
+=======
+# IPAttackMapWebsite
+>>>>>>> 6d04c78d6675d8e0a55d8f24af4db9456a3819b7
