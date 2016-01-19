@@ -3,7 +3,7 @@
   "description": "Now you can have your very own IP attack map that's just as useful as everyone else's.",
   "repository": "https://github.com/vkremez/IPAttackMapWebsite.git",
   "env": {
-    "BUILDPACK_URL": "heroku config:set BUILDPACK_URL=https://github.com/zeke/harp-buildpack"
+    "BUILDPACK_URL": "https://github.com/zeke/harp-buildpack.git"
   },
   "keywords": ["security", "map", "pew"]
 }
