@@ -1,9 +1,13 @@
 {
   "name": "Vitali's IP Attack Map",
   "description": "Now you can have your very own IP attack map that's just as useful as everyone else's.",
-  "repository": "https://github.com/vkremez/IPAttackMapWebsite.git",
+  "repository": "https://github.com/vkremez/IPAttackMapWebsite",
   "env": {
-    "BUILDPACK_URL": "https://github.com/pearkes/heroku-buildpack-static,git"
+    "buildpacks": [
+      {
+       "url": "https://github.com/pearkes/heroku-buildpack-static"
+      ]
+      }
   },
   "keywords": ["security", "map", "pew"]
 }
