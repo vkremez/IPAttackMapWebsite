@@ -122,7 +122,7 @@ function about() {
   <audio id="galaga" src="shot_sound.mp3" preload="auto"></audio>
 
   <center><div id="container1"></div></center>
-  <div id="titlediv">IPew Attack Map</div>
+  <div id="titlediv">VK HoneyPot Attack Map</div>
   <div id="attackdiv"></div>
   <div id="aboutdiv"><i class="fa fa-question-circle fa-2x" onClick="about();"></i></div>
 
@@ -131,14 +131,14 @@ function about() {
   </div>
 
   <div id="about">
-  <h3>About IPew</h3>
-  Attack maps are the <span style="font-family: monospace;">&lt;blink&gt;</span> tag of information security. They are pure eye candy, meant to scare the general public and <i>WOW</i> unsuspecting executives visiting Security Operations Centers. Yet, security vendors keep cranking them out. We didn't want organizations without "real" data or l33t animation skills to to feel left out, so we built this map for anyone to use [CC BY-SA]. Plus, they're all missing sound effects! And, most (all, really) use mind-numbingly dumb map projections, begging the question: <i>"Does Greenland make my map look big?"</i>.<br/>
+  <h3>About IP Attack Map</h3>
+  Attack maps are the tag of information security. They are pure eye candy, meant to scare the general public and <i>WOW</i> unsuspecting executives visiting Security Operations Centers. Yet, security vendors keep cranking them out. We didn't want organizations without "real" data or l33t animation skills to to feel left out, so we built this map for anyone to use [CC BY-SA]. Plus, they're all missing sound effects! And, most (all, really) use mind-numbingly dumb map projections, begging the question: <i>"Does Greenland make my map look big?"</i>.<br/>
   <br/>
   The default map uses a statistical model (infrequently updated) for source "attack" node country of origin &amp; frequency while destinations are fully randomized. The default sound is a Star Wars "blaster" (guess which one!). Sounds can be customized and an organization name can be specified, plus there are a few other <i>interesting</i> options.<br/>
   <br/>
-  Check out the <a target=_blank href='http://github.com/hrbrmstr/pewpew'>github repository</a> for more information and instructions on how to customize the map options for maximum effect.<br/>
+  Check out the <a target=_blank href='http://github.com/vkremez'>github repository</a> for more information and instructions on how to customize the map options for maximum effect.<br/>
   <br/>
-  Brought to you by <a target=_blank href="http://twitter.com/alexcpsec">@alexcpsec</a>, <a target=_blank href="http://twitter.com/hrbrmstr">@hrbrmstr</a> &amp; <a target=_blank href="http://dds.ec/blog">Data-Driven Security</a>
+  Brought to you by <a target=_blank href="http://vkremez.com/">Vitali</a>
   </div>
 
   <!-- Use Hash-Bang to maintain scroll position when closing modal -->
@@ -154,10 +154,10 @@ function about() {
     attack_max = 2000 ;
 
     // add/change the attack types here
-    attack_type = [ "any port scan in a storm", "ssh brutish force", "Thought Leader Tweet",
-                    "SYN FLOOD BA-BY", "Spotty", "Heartbleed Hotel", "Po_ODLE", "Sharknado",
-                    "CORGI Attack", "Ping of DOOM", "Conficker", "Goldfinger", "SANDPAPER",
-                    "SNAILshock", "Spaghetti RAT", "Driduplex" ] ;
+    attack_type = [ "DDOS Attack", "SSH Brute Force", "Dridex",
+                    "SYN FLOOD", "Zeus SPAM", "Heartbleed", "Web App Exploit", "APT",
+                    "CORGI Attack", "Ping of Death", "Conficker", "CryptoLocker", "IceIX",
+                    "SNAILshock", "Gh0st RAT", "Driduplex" ] ;
 
     // gotta add types here if you add more sounds (or delete them)
 
@@ -220,7 +220,7 @@ function about() {
       attack_max=200;
     }
 
-    if (typeof org_name !== 'undefined') { $("#titlediv").text(decodeURI(org_name) + " IPew Attack Map").html() }
+    if (typeof org_name !== 'undefined') { $("#titlediv").text(decodeURI(org_name) + " VK Attack Map").html() }
 
     // we maintain a fixed queue of "attacks" via this class
     function FixedQueue( size, initialValues ){
@@ -522,7 +522,7 @@ function about() {
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-79740-6', 'datadrivensecurity.info');
+      ga('create', 'UA-_________', 'vkremez.com');
       ga('send', 'pageview');
 
     </script>
