@@ -3,7 +3,7 @@
 
 ![img](pewpew.png)
 
-Website: vitali-honeypot.herokuapp.com
+Website: http://vitali-honeypot.herokuapp.com
 
 Source: https://github.com/mlsecproject/pewpew
 
@@ -12,15 +12,17 @@ This web app uses D3 / javascript visualization to display cartographic IP data 
 Examples of Usage:
 
 http://vitali-honeypot.herokuapp.com/index.html?china_mode=1&org_name=[INSERT ANY COMPANY NAME]&bad_day=1
-http://vitali-honeypot.herokuapp.com/index.html?org_name=[INSERT ANY COMPANY NAME]&drill_mode=1&lat=[INSERT ANY FLOAT VALUE]&lon=[INSERT ANY FLOAT VALUE]
- http://vitali-honeypot.herokuapp.com/index.html?org_name=[INSERT ANY COMPANY NAME]&employee_mode=1&employee_fname=[INSERT ANY FIRST NAME]&employee_lname=[INSERT ANY LAST NAME]&lat=[INSERT ANY FLOAT VALUE]&lon=[INSERT ANY FLOAT VALUE]
 
-### Using IPAttackMapWebsite
+http://vitali-honeypot.herokuapp.com/index.html?org_name=[INSERT ANY COMPANY NAME]&drill_mode=1&lat=[INSERT ANY FLOAT VALUE]&lon=[INSERT ANY FLOAT VALUE]
+
+http://vitali-honeypot.herokuapp.com/index.html?org_name=[INSERT ANY COMPANY NAME]&employee_mode=1&employee_fname=[INSERT ANY FIRST NAME]&employee_lname=[INSERT ANY LAST NAME]&lat=[INSERT ANY FLOAT VALUE]&lon=[INSERT ANY FLOAT VALUE]
+
+Using IPAttackMapWebsite
 
 Feel free to use the hosted version, but we've released IPew under a liberal Creative Commons license, so clone away and use as you see fit, just remember to share your creations (and code) with others.
-=======
 
-# IPAttackMapWebsite
+
+IPAttackMapWebsite
 
 
 IPAttackMapWebsite includes the following sounds:
@@ -52,5 +54,3 @@ We had an interesting request to be able to use IPew in a IR "drill" setting, so
 If you want to show that former employees are the problem, try out
 employee_mode. You can set a first and last name for the employee and also
 set a latitude and longitude.
-
-
